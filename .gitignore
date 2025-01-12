@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+venv/
+
+# Logs
+*.log
+
+# Model files and data
+*.bin
+*.pt
+*.pth
+tinyllama_finetuned*/
+prepared_data/
+
+# Data directories (except slack.txt)
+**/data/*
+!**/data/slack.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+._*
